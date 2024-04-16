@@ -8,6 +8,8 @@ def add_arrays(arr1, arr2):
     shape2 = []
     arr1_copy = arr1
     arr2_copy = arr2
+    if not arr1 or not arr2:
+        return None
     while type(arr1) is list:
         shape1.append(len(arr1))
         arr1 = arr1[0]
