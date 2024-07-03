@@ -14,7 +14,7 @@ def poly_derivative(poly):
     """
     if type(poly) is not list or len(poly) == 0:
         return None
-    if len(poly) == 1 and poly[0] == 0:
+    if len(poly) == 1 and poly[0] <= 0:
         return [0]
     result = []
     for index, element in enumerate(poly):
