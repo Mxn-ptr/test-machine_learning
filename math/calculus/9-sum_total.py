@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """ Module """
 
+
 def summation_i_squared(n):
     """ Calcule the sum of squared of i """
     if type(n) is not int or n <= 0:
