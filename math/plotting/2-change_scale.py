@@ -3,6 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def change_scale():
     """ Plot a line graph """
     x = np.arange(0, 28651, 5730)
