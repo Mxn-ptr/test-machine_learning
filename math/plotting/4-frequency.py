@@ -15,6 +15,7 @@ def frequency():
     plt.xlabel('Grades')
     plt.ylabel('Number of Students')
     plt.ylim(0, 30)
+    plt.xlim(0, 100)
     plt.xticks(x)
     plt.hist(student_grades, bins=x, edgecolor='black')
     plt.show()
