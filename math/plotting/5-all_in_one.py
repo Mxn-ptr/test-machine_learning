@@ -68,7 +68,6 @@ def all_in_one():
     plt.xlim(0, 100)
     plt.xticks(bins)
     plt.hist(student_grades, bins=bins, edgecolor='black')
-    plt.show()
 
     fig.suptitle("All in One")
     plt.show()
